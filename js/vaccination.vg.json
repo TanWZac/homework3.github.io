@@ -1,12 +1,16 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Covid-19 vaccine doses administered per 100 population (cumulative)",
+    "title": {"text": "Covid-19 Vaccination Rate", 
+      "subtitle":"Cumulative total vaccine doses administered per 100 population",
+      "fontSize": 30,
+      "subtitleFontSize": 20},
     "width": 1000,
     "height": 800,
     "data": {
       "url": "https://raw.githubusercontent.com/WenTanZac0625/FIT3179/main/js/world_map.geom.json",
       "format": {"type": "topojson","feature": "world.geo"}
     },
+    "config": {"title": {"font": "Sans-serif"}},
     "layer":[
       {
         "transform": [
@@ -34,7 +38,7 @@
       "color": {
         "field": "TOTAL_VACCINATIONS_PER100",
         "type": "quantitative",
-        "title": "Total Vaccination",
+        "title": "Total Vaccination (log)",
         "scale": {"type": "log"}
       },
       "tooltip": [
@@ -42,10 +46,7 @@
         {"field": "TOTAL_VACCINATIONS_PER100", "type": "quantitative", "title": "Total Vaccination"}
       ]
     }
-  }    
-]
+    } 
+  ]
 }
-
-
-
   
