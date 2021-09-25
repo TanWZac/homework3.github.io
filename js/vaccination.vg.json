@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "COVID-19 Vaccination Rate Per 100",
+    "title": "Covid-19 vaccine doses administered per 100 population (cumulative)",
     "width": 1000,
     "height": 800,
     "data": {
