@@ -7,7 +7,7 @@
     "width": 1000,
     "height": 800,
     "data": {
-      "url": "https://raw.githubusercontent.com/WenTanZac0625/FIT3179/main/Map/js/world_map.geom.json",
+      "url": "https://raw.githubusercontent.com/WenTanZac0625/WenTanZac0625.github.io/main/js/world_map.geom.json",
       "format": {"type": "topojson","feature": "world.geo"}
     },
     "config": {"title": {"font": "Sans-serif"}},
@@ -24,7 +24,7 @@
           {"lookup": "properties.geounit",
           "from": {
             "data": {
-              "url": "https://raw.githubusercontent.com/WenTanZac0625/FIT3179/main/data/Total_vaccination(1).csv"
+              "url": "https://raw.githubusercontent.com/WenTanZac0625/WenTanZac0625.github.io/main/data/Total_vaccination(1).csv"
             },
             "key": "COUNTRY",
             "fields": ["TOTAL_VACCINATIONS_PER100"]
