@@ -32,7 +32,7 @@
         }
       ],
 
-    "projection": {"type": "equirectangular"},
+    "projection": {"type": "equalEarth"},
     "mark": {"type": "geoshape"},
     "encoding": {
       "color": {
